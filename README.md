@@ -1,10 +1,12 @@
 # APPROX-CR (A Passable Proxy of Residual-like Outcomes via Xgboost for Cognitive Reserve)
 
+*Note: This scoring is done entirely on the user's local computer. In other words, it does not upload the data to any internet-based service for scoring.*
+
 ## Compiling Data
 
-To generate predicted scores, download the data template [here](https://www.dropbox.com/s/yu1jwxxrfsan7mk/datatemplate.csv?dl=1).
+To generate APPROX-CR scores, users must have correctly formatted data. To see how the data should be formatted, download the data template [here](https://www.dropbox.com/s/yu1jwxxrfsan7mk/datatemplate.csv?dl=1).
 
-This file has 20 columns of data, described below. *Caution should be used when applying this model to data that fall outside of the ranges used in the training sample.*
+The data template file has 20 columns of data, described below. *Caution should be used when applying this model to data that fall outside of the ranges used in the training sample.*
 
 - **id**: participant ID # (site-specific)
 - **label**: site-specific label (if necessary)
