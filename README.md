@@ -2,7 +2,7 @@
 
 ## Compiling Data
 
-To generate predicted scores, download the data template [here][https://www.dropbox.com/s/yu1jwxxrfsan7mk/datatemplate.csv?dl=1].
+To generate predicted scores, download the data template [here](https://www.dropbox.com/s/yu1jwxxrfsan7mk/datatemplate.csv?dl=1).
 
 This file has 20 columns of data, described below. *Caution should be used when applying this model to data that fall outside of the ranges used in the training sample.*
 
@@ -20,7 +20,7 @@ This file has 20 columns of data, described below. *Caution should be used when 
 - *hip_cm*: Hip circumference in centimeters. Range in training sample was 81.00 - 152.10.
 - *memcncrn*: ECog Self-report question "Are you having concerns with your memory or thinking?" (0 = no; 1 = yes)
 - *amnart45*: AMNART score (45-item version). Range in training sample was 0 - 45.
-- *adj_mmse*: MMSE or MoCA score. If MoCA, convert to MMSE equivalent using this [crosswalk paper][https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4704083/] (Saczynski et al., 2015). Range in training sample was 5 - 30.
+- *adj_mmse*: MMSE or MoCA score. If MoCA, convert to MMSE equivalent using this [crosswalk paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4704083/) (Saczynski et al., 2015). Range in training sample was 5 - 30.
 - *gds*: Geratric Depression Scale (15-item) score. Range in training sample was 0 - 14.
 - *cdrsum*: Clinical Dementia Rating Sum of Boxes score. Range in training sample was 0 - 17.
 - *memory*: Clinical Dementia Rating Memory Box score. Range in training sample was 0 - 3.
