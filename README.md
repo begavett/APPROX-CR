@@ -18,7 +18,7 @@ This file has 20 columns of data, described below. *Caution should be used when 
 - **weight_kg**: Weight in kilograms. Range in training sample was 38.56 - 151.00.
 - **waist_cm**: Waist circumference in centimeters. Range in training sample was 40.00 - 140.50.
 - **hip_cm**: Hip circumference in centimeters. Range in training sample was 81.00 - 152.10.
-- **memcncrn**: ECog Self-report question "Are you having concerns with your memory or thinking?" (0 = no; 1 = yes)
+- **memcncrn**: ECog Self-report question "Are you concerned that you have a memory or other thinking problem?" (0 = no; 1 = yes)
 - **amnart45**: AMNART score (45-item version). Range in training sample was 0 - 45.
 - **adj_mmse**: MMSE or MoCA score. If MoCA, convert to MMSE equivalent using this [crosswalk paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4704083/) (Saczynski et al., 2015). Range in training sample was 5 - 30.
 - **gds**: Geratric Depression Scale (15-item) score. Range in training sample was 0 - 14.
