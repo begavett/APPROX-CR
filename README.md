@@ -6,26 +6,26 @@ To generate predicted scores, download the data template [here](https://www.drop
 
 This file has 20 columns of data, described below. *Caution should be used when applying this model to data that fall outside of the ranges used in the training sample.*
 
-- *id*: participant ID # (site-specific)
-- *label*: site-specific label (if necessary)
-- *age*: Age in years. Range in training sample was 49 - 97.
-- *education*: years of education. Range in training sample was 0 - 20.
-- *male*: Male sex (0 = female; 1 = male)
-- *bpsys*: Systolic blood pressure (mm Hg). Range in training sample was 83 - 230.
-- *bpdias*: Diastolic blood pressure (mm Hg). Range in training sample was 33 - 110.
-- *hrate*: Heart rate. Range in training sample was 35 - 111.
-- *height_m*: Height in meters. Range in training sample was 1.32 - 1.96.
-- *weight_kg*: Weight in kilograms. Range in training sample was 38.56 - 151.00.
-- *waist_cm*: Waist circumference in centimeters. Range in training sample was 40.00 - 140.50.
-- *hip_cm*: Hip circumference in centimeters. Range in training sample was 81.00 - 152.10.
-- *memcncrn*: ECog Self-report question "Are you having concerns with your memory or thinking?" (0 = no; 1 = yes)
-- *amnart45*: AMNART score (45-item version). Range in training sample was 0 - 45.
-- *adj_mmse*: MMSE or MoCA score. If MoCA, convert to MMSE equivalent using this [crosswalk paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4704083/) (Saczynski et al., 2015). Range in training sample was 5 - 30.
-- *gds*: Geratric Depression Scale (15-item) score. Range in training sample was 0 - 14.
-- *cdrsum*: Clinical Dementia Rating Sum of Boxes score. Range in training sample was 0 - 17.
-- *memory*: Clinical Dementia Rating Memory Box score. Range in training sample was 0 - 3.
-- *ecogmem*: ECog (informant-report) Memory domain score (average). Range in training sample was 1 - 4.
-- *ecog_avg*: ECog (informant-report) Total score (average). Range in training sample was 1 - 4.
+- **id**: participant ID # (site-specific)
+- **label**: site-specific label (if necessary)
+- **age**: Age in years. Range in training sample was 49 - 97.
+- **education**: years of education. Range in training sample was 0 - 20.
+- **male**: Male sex (0 = female; 1 = male)
+- **bpsys**: Systolic blood pressure (mm Hg). Range in training sample was 83 - 230.
+- **bpdias**: Diastolic blood pressure (mm Hg). Range in training sample was 33 - 110.
+- **hrate**: Heart rate. Range in training sample was 35 - 111.
+- **height_m**: Height in meters. Range in training sample was 1.32 - 1.96.
+- **weight_kg**: Weight in kilograms. Range in training sample was 38.56 - 151.00.
+- **waist_cm**: Waist circumference in centimeters. Range in training sample was 40.00 - 140.50.
+- **hip_cm**: Hip circumference in centimeters. Range in training sample was 81.00 - 152.10.
+- **memcncrn**: ECog Self-report question "Are you having concerns with your memory or thinking?" (0 = no; 1 = yes)
+- **amnart45**: AMNART score (45-item version). Range in training sample was 0 - 45.
+- **adj_mmse**: MMSE or MoCA score. If MoCA, convert to MMSE equivalent using this [crosswalk paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4704083/) (Saczynski et al., 2015). Range in training sample was 5 - 30.
+- **gds**: Geratric Depression Scale (15-item) score. Range in training sample was 0 - 14.
+- **cdrsum**: Clinical Dementia Rating Sum of Boxes score. Range in training sample was 0 - 17.
+- **memory**: Clinical Dementia Rating Memory Box score. Range in training sample was 0 - 3.
+- **ecogmem**: ECog (informant-report) Memory domain score (average). Range in training sample was 1 - 4.
+- **ecog_avg**: ECog (informant-report) Total score (average). Range in training sample was 1 - 4.
 
 Values for some of the derived variables (e.g., pulse pressure, BMI) will be calculated from the data provided.
 
